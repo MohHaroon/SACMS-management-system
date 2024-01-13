@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="450.0" prefWidth="650.0" styleClass="backgroundColor" stylesheets="@StyleSheet.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SACMS_package_system_2601_group13.User.Student">
+    <children>
+        <Button layoutX="88.0" layoutY="204.0" mnemonicParsing="false" onAction="#viewClubsOnActionButton" prefHeight="105.0" prefWidth="105.0" styleClass="button" stylesheets="@StyleSheet.css" text="View &amp; Join Clubs" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+        <Button layoutX="13.0" layoutY="411.0" mnemonicParsing="false" onAction="#signOutOnActionButton" prefHeight="25.0" prefWidth="74.0" styleClass="button" stylesheets="@StyleSheet.css" text="Sign Out" textFill="RED" />
+        <Text layoutX="140.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Profile" textAlignment="CENTER" wrappingWidth="370.1416015625">
+            <font>
+                <Font size="40.0" />
+            </font>
+        </Text>
+        <ImageView fitHeight="82.0" fitWidth="125.0" layoutX="13.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Images/SACMS_logo.png" />
+            </image>
+        </ImageView>
+      <Button layoutX="457.0" layoutY="204.0" mnemonicParsing="false" onAction="#studentProfileManagementOnActionButton" prefHeight="105.0" prefWidth="105.0" styleClass="button" stylesheets="@StyleSheet.css" text="Profile Management" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button layoutX="273.0" layoutY="204.0" mnemonicParsing="false" onAction="#studentViewEventsOnActionButton" prefHeight="105.0" prefWidth="105.0" styleClass="button" stylesheets="@StyleSheet.css" text="View Events" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
